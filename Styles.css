@@ -131,7 +131,7 @@ outline: none;
 .we_offer .card{
     border-radius: 10px;
     border:lpx solid gray 
-    background: transparent;solid #e0e0e0;
+    background : transparent;solid #e0e0e0;
     transition:all 0.3s ease;
     overflow:hidden;
     cursor:pointer;
@@ -208,6 +208,16 @@ outline: none;
     background: url('./images/collection4.jpg');
     cursor:pointer;
 }
+.card1:hover{
+    transform:scale(1.05);
+}
+.card2:hover{
+    transform:scale(1.05);
+}
+.card3:hover{
+    transform:scale(1.05);
+}
+ 
 .overlay{
     height:100%;
     width:100%;
@@ -477,5 +487,26 @@ gap:16px;
 }
 .footer_store_logos:hover{
     transform:scale(1.05);
+
+}
+
+.footer_section3{
+    justify-content: space-between;
+    width:90%;
+    align-items: center;
+    display: flex;
+    padding:0.5px;    
+    text-align:center;
+    font-weight: 200;
+    padding-left: 130px;
+    }
+
+.line{
+    width:90%;  
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-left: 130px;
+    background-color: 1px solid black ;
 
 }
